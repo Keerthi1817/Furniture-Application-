@@ -29,20 +29,39 @@
     </div>
 </body>
 <script>
-    const text = document.querySelector('.text')
-    const textLoad = () => {
-        setTimeout(() => {
-            text.textContent = "Good Living"
-        }, 0)
-        setTimeout(() => {
-            text.textContent = "Happy Life"
-        }, 4000)
-        setTimeout(() => {
-            text.textContent = "Peacefull Environment"
-        }, 4000)
+    var texts = ["Happylife.", "Goodliving.", "Peaceful Life."];
+    var currentTextIndex = 0;
+    var currentText = texts[currentTextIndex];
+    var element = document.querySelector(".text");
+
+    function typeText() {
+        var text = currentText.substring(0, index);
+        element.textContent = text;
+
+        if (index === currentText.length) {
+            setTimeout(eraseText, 1500);
+        } else {
+            index++;
+            setTimeout(typeText, 200);
+        }
     }
-    textLoad()
-    setInterval(textLoad, 12000)
+
+    function eraseText() {
+        var text = currentText.substring(0, index);
+        element.textContent = text;
+
+        if (index === 0) {
+            currentTextIndex = (currentTextIndex + 1) % texts.length;
+            currentText = texts[currentTextIndex];
+            setTimeout(typeText, 500);
+        } else {
+            index--;
+            setTimeout(eraseText, 100);
+        }
+    }
+
+    var index = 0;
+    typeText();
 </script>
 
 </html>
