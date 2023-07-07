@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:wght@300&family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:wght@300&family=Satisfy&family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:wght@300&family=Overpass:ital,wght@1,700&family=Satisfy&family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:wght@300&family=Overpass:ital,wght@1,700&family=Satisfy&family=Titillium+Web:wght@300&display=swap');
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a.left {
+    text-decoration: none;
+    color: #181823;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 10px;
+    letter-spacing: 1.5px;
+}
+
+nav a.left:hover {
+    color: darkred;
+    transition: 0.3s;
+}
+
+nav h3 {
+    font-family: 'Satisfy', cursive;
+    font-size: 34px;
+    color: #4D455D;
+}
+
+span {
+    color: indianred;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    margin-left: 9%;
+    padding: 50px 0;
+    position: absolute;
+    top: 16%;
+    right: 10%;
+}
+
+.all img {
+    width: 283px;
+    height: 230px;
+    margin: 20px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    position: relative;
+    left: 5%;
+}
+
+.items p {
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.furnites {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.row1 span.accent {
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    bottom: 75.5%;
+    right: 76%;
+    letter-spacing: 2px;
+    color: #181823;
+}
+
+.row1 p.ap {
+    position: absolute;
+    bottom: 73%;
+    right: 79%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.row1 span.albany {
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    bottom: 75.5%;
+    right: 45%;
+    letter-spacing: 2px;
+    color: #181823;
+}
+
+#red {
+    color: indianred;
+}
+
+.row1 p.ab {
+    position: absolute;
+    bottom: 73%;
+    right: 48%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.row1 span.alt {
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    bottom: 75.5%;
+    right: 11%;
+    letter-spacing: 2px;
+    color: #181823;
+}
+
+.row1 p.at {
+    position: absolute;
+    bottom: 73%;
+    right: 14%;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.row2 span.dining {
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    bottom: 52.5%;
+    right: 77%;
+    letter-spacing: 2px;
+    color: #181823;
+}
+
+.row2 p.dt {
+    position: absolute;
+    bottom: 49.9%;
+    right: 79.7%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.row2 span.emperor {
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    bottom: 52.5%;
+    right: 44%;
+    letter-spacing: 2px;
+    color: #181823;
+}
+
+.row2 p.em {
+    position: absolute;
+    bottom: 49.9%;
+    right: 46.7%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.row2 span.ent {
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    bottom: 52.5%;
+    right: 7%;
+    letter-spacing: 2px;
+    color: #181823;
+}
+
+.row2 p.en {
+    position: absolute;
+    bottom: 49.9%;
+    right: 13.7%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+.row3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.row3 span.hbb {
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    bottom: 29.3%;
+    right: 75%;
+    letter-spacing: 2px;
+    color: #181823;
+}
+
+.row3 p.hb {
+    position: absolute;
+    bottom: 26.7%;
+    right: 79.7%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.row3 span.ls {
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    bottom: 29.3%;
+    right: 43.6%;
+    letter-spacing: 2px;
+    color: #181823;
+}
+
+.row3 p.ls {
+    position: absolute;
+    bottom: 26.7%;
+    right: 46.7%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.row3 span.mb {
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    bottom: 29.3%;
+    right: 8.6%;
+    letter-spacing: 2px;
+    color: #181823;
+}
+
+.row3 p.mb {
+    position: absolute;
+    bottom: 26.7%;
+    right: 13.7%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.row4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.row4 span.ss {
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    bottom: 6.3%;
+    right: 61.6%;
+    letter-spacing: 2px;
+    color: #181823;
+}
+
+.row4 p.ss {
+    position: absolute;
+    bottom: 3.7%;
+    right: 62.7%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.row4 span.us {
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    bottom: 6.3%;
+    right: 28.6%;
+    letter-spacing: 2px;
+    color: #181823;
+}
+
+.row4 p.us {
+    position: absolute;
+    bottom: 3.7%;
+    right: 30.7%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.items .variety {
+
+    width: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.items .variety:hover {
+    background-color: #d0effd;
+    transition: 0.2s;
+}
+
+.ssactivename {
+    position: absolute;
+    bottom: 75.5%;
+    right: 45.5%;
+}
+
+.ssactiveprice {
+    position: absolute;
+    bottom: 73%;
+    right: 47%;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html" class="left">Home</a>
+            <a href="product.html" class="left">Products</a>
+            <h3 class="furnite left"> <span>F</span>urnite</h3>
+            <a href="#" class="left">About</a>
+            <a href="#" class="left">Help</a>
+
+        </nav>
+        <section class="content">
+            <h2>Good Furnitures <span class="en">Ensures </span>
+                <div class="text">Good Living.</div>
+            </h2>
+            <a href="/product.html"><button class="shop">Shop now</button></a>
+
+        </section>
+    </div>
+</body>
+<script>
+    const text = document.querySelector('.text')
+    const textLoad = () => {
+        setTimeout(() => {
+            text.textContent = "Good Living"
+        }, 0)
+        setTimeout(() => {
+            text.textContent = "Happy Life"
+        }, 4000)
+        setTimeout(() => {
+            text.textContent = "Peacefull Environmentarr"
+        }, 4000)
+    }
+    textLoad()
+    setInterval(textLoad, 12000)
+</script>
+
+</html>
